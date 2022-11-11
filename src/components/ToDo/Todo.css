@@ -1,0 +1,57 @@
+.todo-box{
+    background-color:#1916A5;
+    box-shadow: 2px 5px 3px 0 rgb(0 0 0 / 50%);
+    padding: 10px 20px;
+    text-align: center;
+    margin: 20px 0;
+    width: 250px;
+    color: white;
+}
+.todo-box h3{
+    padding-bottom: 10px;
+    width: 70%;
+}
+.todo-box p{
+    padding: 10px;
+    text-transform: capitalize;
+}
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4D56B9;
+    font-weight: bolder;
+    color: #cdd1e9;
+    border-radius: 15px;
+    margin: 7px 0;
+    padding-right: 7PX;
+}
+.item-title {
+    padding-right: 7px;
+}
+.icons-list{
+    flex-direction: row;
+}
+.icons-list button{
+    background-color: #cdd1e9;
+    padding: 4px 1px;
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    margin: 6px 2px;
+    display: inline;
+    cursor: pointer;
+}
+.start{
+    color: blue;
+}
+.edit{
+    color: green;
+}
+.trash{
+    color: red;
+}
+@media screen and (max-width: 850px){
+    .todo-box{
+        width: 100%;
+    }
+}
